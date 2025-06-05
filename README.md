@@ -73,6 +73,9 @@ resource "yandex_storage_object" "index" {
   depends_on = [yandex_storage_bucket.images]
 }
 ```
+
+![alt text](https://github.com/VN351/clopro-03/raw/main/images/1-7.jpg)
+
 2. (Выполняется не в Terraform)* Создать статический сайт в Object Storage c собственным публичным адресом и сделать доступным по HTTPS:
 
  - создать сертификат;
